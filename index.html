@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Карданова Светлана Хасановна - педагог-психолог</title>
+    <style>
+        /* Основные стили */
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+        
+        /* Шапка */
+        header {
+            background: linear-gradient(135deg, #6b8cff 0%, #3b5998 100%);
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        
+        .logo {
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        
+        .tagline {
+            font-style: italic;
+            margin-bottom: 20px;
+        }
+        
+        /* Навигация */
+        nav {
+            background-color: #3b5998;
+            padding: 10px 0;
+        }
+        
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        
+        nav li {
+            margin: 0 15px;
+        }
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        
+        nav a:hover {
+            color: #ddf;
+        }
+        
+        /* Основной контент */
+        .main-content {
+            padding: 40px 0;
+        }
+        
+        .section {
+            margin-bottom: 40px;
+            background-color: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        h1, h2, h3 {
+            color: #3b5998;
+        }
+        
+        /* Обо мне */
+        .about {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+        }
+        
+        .about-img {
+            width: 300px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        
+        /* Услуги */
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        
+        .service-card {
+            background-color: #f0f4ff;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #3b5998;
+        }
+        
+        /* Контакты */
+        .contacts {
+            display: flex;
+            gap: 30px;
+        }
+        
+        .contact-form {
+            flex: 1;
+        }
+        
+        .contact-info {
+            flex: 1;
+        }
+        
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        
+        button {
+            background-color: #3b5998;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        
+        button:hover {
+            background-color: #2d4373;
+        }
+        
+        /* Подвал */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+        
+        /* Адаптивность */
+        @media (max-width: 768px) {
+            .about, .contacts {
+                flex-direction: column;
+            }
+            
+            .about-img {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Шапка -->
+    <header>
+        <div class="container">
+            <div class="logo">Карданова Светлана Хасановна</div>
+            <div class="tagline">Профессиональная психологическая помощь детям и взрослым</div>
+        </div>
+    </header>
+    
+    <!-- Навигация -->
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#about">Обо мне</a></li>
+                <li><a href="#services">Услуги</a></li>
+                <li><a href="#reviews">Отзывы</a></li>
+                <li><a href="#blog">Блог</a></li>
+                <li><a href="#contacts">Контакты</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <!-- Основной контент -->
+    <main class="main-content container">
+        <!-- Обо мне -->
+        <section id="about" class="section">
+            <h2>Обо мне</h2>
+            <div class="about">
+                <img src="https://via.placeholder.com/300x400" alt="Карданова Светлана Хасановна" class="about-img">
+                <div>
+                    <p>Я, Карданова Светлана Хасановна, педагог-психолог с 10-летним опытом работы с детьми и семьями.</p>
+                    <p>Образование:</p>
+                    <ul>
+                        <li>Высшее психологическое образование (КБГУ)</li>
+                        <li>Сертифицированный специалист по детской психотерапии</li>
+                        <li>Курсы повышения квалификации по семейной психологии</li>
+                    </ul>
+                    <p>Специализация:</p>
+                    <ul>
+                        <li>Детско-родительские отношения</li>
+                        <li>Школьная адаптация</li>
+                        <li>Коррекция тревожных состояний</li>
+                        <li>Профориентация подростков</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Услуги -->
+        <section id="services" class="section">
+            <h2>Мои услуги</h2>
+            <div class="services">
+                <div class="service-card">
+                    <h3>Индивидуальная консультация</h3>
+                    <p>60 минут | 2500 руб.</p>
+                    <p>Работа с личными проблемами, тревожностью, стрессом.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Диагностика готовности к школе</h3>
+                    <p>90 минут | 3500 руб.</p>
+                    <p>Комплексная оценка уровня развития ребенка.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Семейная консультация</h3>
+                    <p>90 минут | 4000 руб.</p>
+                    <p>Решение конфликтов, улучшение взаимоотношений.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Коррекционные занятия</h3>
+                    <p>45 минут | 2000 руб.</p>
+                    <p>Развитие эмоционального интеллекта, работа со страхами.</p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Отзывы -->
+        <section id="reviews" class="section">
+            <h2>Отзывы клиентов</h2>
+            <div class="reviews">
+                <blockquote>
+                    <p>"Светлана Хасановна помогла нашему сыну адаптироваться к школе. После нескольких занятий он стал более уверенным в себе."</p>
+                    <cite>- Анна, мама 7-летнего Миши</cite>
+                </blockquote>
+                <blockquote>
+                    <p>"Благодаря профессиональной помощи смогла справиться с тревожностью и наладить отношения с дочерью-подростком."</p>
+                    <cite>- Марина, 38 лет</cite>
+                </blockquote>
+            </div>
+        </section>
+        
+        <!-- Контакты -->
+        <section id="contacts" class="section">
+            <h2>Контакты</h2>
+            <div class="contacts">
+                <div class="contact-info">
+                    <h3>Как со мной связаться</h3>
+                    <p>📍 г. Нальчик, ул. Психологическая, 15 (кабинет 304)</p>
+                    <p>📞 +7 (928) 123-45-67</p>
+                    <p>✉️ svetlana.k@example.com</p>
+                    <p>🕘 Часы приема: Пн-Пт с 9:00 до 18:00</p>
+                </div>
+                <div class="contact-form">
+                    <h3>Записаться на консультацию</h3>
+                    <form>
+                        <input type="text" placeholder="Ваше имя" required>
+                        <input type="tel" placeholder="Телефон" required>
+                        <input type="email" placeholder="Email">
+                        <textarea placeholder="Опишите, с какой проблемой вы хотели бы поработать" rows="4"></textarea>
+                        <button type="submit">Отправить запрос</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <!-- Подвал -->
+    <footer>
+        <div class="container">
+            <p>© 2023 Карданова Светлана Хасановна. Все права защищены.</p>
+            <p>Лицензия на образовательную деятельность №12345 от 01.01.2020</p>
+        </div>
+    </footer>
+</body>
+</html>
